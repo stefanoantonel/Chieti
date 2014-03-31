@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+.TituloPrincipal {color: green;}
+
+.btn.boton {color: white;
+		background: gray;
+		font: italic;
+		
+		}
+		
+.btnPrincipal{
+/*background: url("./img/boton_verde.jpg") no-repeat;*/
+background: url("./img/boton_verde.jpg") no-repeat;
+background-size: 100% 100%;
+color: white;
+padding-top: 10px;
+padding-left:10px;
+padding-right:10px;
+margin: 0 0 0 -10px;
+padding-bottom: 10px; 
+}
+
+
+.checkbox
+{
+	vertical-align:top; 
+	horizontal-align:left; 
+}
+
+
+.notaHeader
+{
+	background: #5DD8A5;
+}
+
+.notaBody
+{
+	background: #DCEDE6;
+}
+
+.cabeceraPrincipal
+{
+	background: url("./img/fondo_verde.jpg") no-repeat;
+
+}
+.tituloArriba
+{
+	font-size: 38px;
+    font-style: italic;
+    color: #333;
+    padding: 10px;
+    text-shadow: -1px -1px 0px #101010, 1px 1px 0px #505050;
+}
+
+
+ .opcion_iluminada {
+    font-size: 20px;
+    color:#999;
+    text-decoration:none;
+    padding: 10px;
+  }
+  .opcion_iluminada:hover {
+    color:#fff;
+    text-shadow: 0px 0px 15px #fff;
+  }
+

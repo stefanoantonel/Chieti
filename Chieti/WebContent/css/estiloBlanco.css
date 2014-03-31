@@ -1,0 +1,37 @@
+@CHARSET "ISO-8859-1";
+
+.btnPrincipal{
+background: url("./img/boton_blanco.jpg") no-repeat;
+background-size: 100% 100%;
+color: #747474;
+padding-top: 10px;
+padding-left:10px;
+padding-right:10px;
+margin: 0 0 0 -10px;
+padding-bottom: 10px; 
+}
+
+.notaHeader
+{
+	background: #D4D3D1;
+}
+
+.notaBody
+{
+   background: #E9E7E5;
+}
+
+.cabeceraPrincipal
+{
+	background: url("./img/fondo_blanco.jpg") no-repeat;
+
+}
+
+.tituloArriba
+{
+	font-size: 38px;
+    font-style: italic;
+    color: #333;
+    padding: 10px;
+    text-shadow: -1px -1px 0px #101010, 1px 1px 0px #505050;
+}
