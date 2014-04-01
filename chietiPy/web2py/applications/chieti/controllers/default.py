@@ -25,7 +25,7 @@ def index():
     p = request.vars['p'] # p=1
     q = request.vars['q'] # q=2 
 
-    return("HOLA FLORa",p,q)
+    return("HOLA FLOR",p,q)
     #response.flash = T("Welcome to web2py!")
     #return dict(message=T('Hello World'))
 
