@@ -20,7 +20,7 @@ def index():
     return auth.wiki()
     """
     
-    request12
+    request23232
     p = request.vars['p'] # p=1
     q = request.vars['q'] # q=2 
 
