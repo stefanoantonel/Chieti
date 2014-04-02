@@ -16,7 +16,11 @@ def index(request):
     #return render(request, "1.html")
 
     from django.template import Template
-    p = request.GET['p']
-    
+    p = request.GET.get('p')
+
+    print (p)
     t = Template("My name is {{ my_name }}.")
-    return HttpResponse(p)
+    if p is not None:
+        return HttpResponse(p)
+    else:
+        return HttpResponse("No hay p ")
