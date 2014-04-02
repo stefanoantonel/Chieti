@@ -22,7 +22,7 @@ def index(request):
 	#return HttpResponse(html)
 	
 	#fp = open('D:/Programas Facultad/Diego G/workspace/github/ChiettiRepo/Chieti/proj2/temaplates/1.html')
-	fp = open('./proj2/temaplates/1.html')
+	fp = open('./proj2/1.html')
 	t = Template(fp.read())
 	fp.close()
 	html = t.render(Context())
