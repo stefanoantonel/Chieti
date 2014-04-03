@@ -15,8 +15,11 @@
 			    type: 'get', 
 			    data: {p:13},
 			    success: function(data) {
-			        alert($(data).text());
+			        console.log("todo ok! AJAX")
 			    }
+			});
+			$(".pe").click(function(){
+				$("body").append("<button class='pe' >pp</button>")
 			});
 		});
 		 
@@ -25,10 +28,7 @@
 
 </head>
 <body>
-	<h1>TiTULO</h1>
-	<ul>
-	No se que es UnorderLISTS
-	</ul>
+	<button class="pe"> op </button>
 
 </body>
 </html>
